@@ -10,7 +10,9 @@
             padding: 0;
             margin: 0;
             box-sizing: border-box;
-            overflow: hidden;
+        }
+        html{
+            font-size: 62.5%;
         }
         .container{
             width: 100vw;
@@ -23,15 +25,83 @@
             height: 100%;
         }
         .container section img{
-            height: 85%;
-            width: 100%;
+            margin-top: 2rem;
+            width: 60rem;
+        }
+        @media (max-width:900px) {
+            html{
+                font-size: 58.5%;
+            }
+            .container section img{
+                width: 57rem;
+            }
+        }
+
+        @media (max-width:800px) {
+            html{
+                font-size: 52.5%;
+            }
+        }
+
+        @media (max-width:680px) {
+            html{
+                font-size: 48.5%;
+            }
+        }
+
+        @media (max-width:550px) {
+            .container section img{
+                width: 50rem;
+            }
+        }
+
+        @media (max-width:450px) {
+            .container section img{
+                width: 45rem;
+            }
+        }
+
+        @media (max-width:375px) {
+            html{
+                font-size: 42.5%;
+            }
+            .container section img{
+                width: 41rem;
+            }
+        }
+
+        @media (max-width:300px) {
+            html{
+                font-size: 40.5%;
+            }
+            .container section img{
+                width: 38rem;
+            }
+        }
+            
+        @media (max-width:270px) {
+            html{
+                font-size: 36%;
+            }
+            .container section img{
+                width: 36rem;
+            }
+        }
+        
+        @media (max-width:210px) {
+            html{
+                font-size: 30%;
+            }
+            .container section img{
+                width: 35rem;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <section>
-            <img src="IMG_20220909_175455.jpg" alt="IMG">
+            <img src="NewSurya.jpg" alt="IMG">
         </section>
     </div>
     
